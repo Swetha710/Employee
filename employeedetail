@@ -1,0 +1,33 @@
+class Employee
+{
+int year;
+String name;
+String add;
+int sal;
+} 
+
+public class Main{
+public static void main(String args[]){
+Employee a = new Employee();
+a.year = 2016;
+a.name = "Jake";
+a.add = "No. 5, North Avenue Street";
+a.sal = 60000;
+System.out.println("Displaying Details of Employee 1\n");
+System.out.println("Name: "+a.name+"\nYear of joining: "+a.year+"\nSalary: "+a.sal+"\nAddress: "+a.add);
+Employee b = new Employee();
+b.year = 2011;
+b.name = "Lucy";
+b.add = "No. 10, West Oxford Street";
+b.sal = 75000;
+System.out.println("\nDisplaying Details of Employee 2\n");
+System.out.println("Name: "+b.name+"\nYear of joining: "+b.year+"\nSalary: "+b.sal+"\nAddress: "+b.add);
+Employee c = new Employee();
+c.year = 2019;
+c.name = "Tasha";
+c.add = "No. 3, White Chapel Road";
+c.sal = 50000;
+System.out.println("\nDisplaying Details of Employee 3\n");
+System.out.println("Name: "+c.name+"\nYear of joining: "+c.year+"\nSalary: "+c.sal+"\nAddress: "+c.add);
+}
+}
